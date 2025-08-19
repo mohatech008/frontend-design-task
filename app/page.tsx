@@ -8,6 +8,7 @@ import TestimonialsSection from './Components/TestimonialSection';
 import PricingSection from './Components/PricingSection';
 import Newsletter from './Components/Newsletter';
 import Footer from './Components/Footer';
+//import WelcomePage from './Pages/Welcome';
 export default function HOME(){
   return(
     <main className="bg-[#F2F2F2]">

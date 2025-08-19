@@ -1,5 +1,6 @@
 // components/Navbar.tsx
 import React from 'react';
+import Link from 'next/link'; 
 import LightbulbIcon from './Icons/LightbulbIcon';
 import SignInButton from './Ui/SignInButton';
 const Navbar = () => {
@@ -26,9 +27,11 @@ const Navbar = () => {
 
           {/* Sign In Button */}
           <div className="hidden md:block">
+            <Link href="/welcome">
     <button aria-label="Sign in" className="transition-transform duration-200 hover:scale-105">
         <SignInButton />
     </button>
+    </Link>
      </div>
         </div>
       </div>

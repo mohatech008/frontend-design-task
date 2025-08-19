@@ -52,6 +52,14 @@ const Hero = () => {
         {/* Right Column */}
         <div className="relative flex justify-center items-center">
          {/*Blur image section*/}
+          <Image
+    src="/overhead.png"
+    alt=""
+    width={659}
+    height={478}
+    className="absolute opacity-75"
+    aria-hidden="true"
+  />
           <div className="relative z-10">
             <Image
               src="/ladylap.png" 
